@@ -1,0 +1,13 @@
+verbose: 1
+sagemaker:
+  endpoint_name: pytorch-inference-2020-12-05-13-16-10-319
+  content_type: "application/json"
+  data_path: "test.json"
+  region: "eu-central-1"
+
+vegeta:
+  name: test
+  duration: 10
+  format: html
+  rate: some
+  open: 1
