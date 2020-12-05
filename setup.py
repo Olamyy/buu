@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="buu",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/kragniz/cookiecutter-pypackage-minimal",
     license='MIT',
 
@@ -33,7 +33,7 @@ setup(
         ]
     },
 
-    install_requires=['pyyaml', 'boto3', 'requests'],
+    install_requires=['pyyaml', 'boto3', 'requests', 'click'],
 
     classifiers=[],
 )
