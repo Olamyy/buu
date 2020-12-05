@@ -26,14 +26,20 @@ verbose : Flag to log to stdout
 
 sagemaker:
     endpoint_name: The name of your endpoint
+    
     content_type: The endpoint content type. Currently supports only application/json and text/csv
+    
     data_path: The path to your test data
+    
     region: AWS region
 
 vegeta:
     name: The name of the current vegeta test
+    
     duration: The duration of the load test
+    
     format: html | bin : If html, buu plots the load test result in an html file. If bin, it logs the results to stdout
+    
     rate: The number of requests to make open: bool : If 1, opens the plot in chrome.
 
 Sample HTML report
